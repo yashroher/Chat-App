@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic SC');
+
+body
+{
+	background-image: url("/img/img2.jpg");
+}
+.login-box
+{
+	position: absolute;
+	width: 15%;
+	height: 30%;
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+	padding-top: 100px;
+	top: 25%;
+	left:42.5%;
+	background-color: rgba(3, 97, 3, 0.616);
+}
+
+input[type=text]
+{
+	height: 30px;
+	text-align: center;
+	font-family: 'Amatic SC';font-size: 25px;
+	font-weight: bold;
+
+}
+
+input[type=submit]
+{
+	height: 40px;
+	width: 60px;
+	background-color: rgba(0, 0, 0, 0.74);
+	border: 0px;
+	color: white;
+	text-align: center;
+	font-family: 'Amatic SC';font-size: 25px;
+	cursor: pointer;
+
+}
+
+
+::placeholder
+{
+	text-align: center;
+	font-family: 'Amatic SC';font-size: 22px;
+	font-weight: bold;
+	vertical-align: middle;
+	
+}

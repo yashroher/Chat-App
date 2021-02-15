@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic SC');
+@import url('https://fonts.googleapis.com/css?family=ABeeZee');
+@import url('https://fonts.googleapis.com/css?family=Actor');
+@import url('https://fonts.googleapis.com/css?family=Advent Pro');
+@import url('https://fonts.googleapis.com/css?family=Alatsi');
+@import url('https://fonts.googleapis.com/css?family=Allan');
+@import url('https://fonts.googleapis.com/css?family=Baumans');
+
+body
+{
+    font-family: 'Amatic SC';font-size: 22px;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.main-interface
+{
+    position: fixed;
+    left: 20%;
+    top: 0px;
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-image: url("/img/img2.jpg");
+}
+
+.main-interface h2
+{
+    text-align:center;
+    font-size:30px;
+}
+
+#form1 input[type=text]
+{
+   position: fixed;
+   overflow: hidden;
+   bottom: 0px;
+   width: 59%;
+   left: 21%;
+   height: 5.9%;;
+   text-align:center;
+   border-radius: 20px;
+   outline: none;
+   background-color:rgba(255, 255, 255, 0.555);
+   font-family:cursive;
+   font-size: 20px;
+   border: 0px ;
+   color: black;
+   font-weight: bolder;
+
+}
+#form1 input[type=submit]
+{   color: rgba(214, 202, 202, 0.945);
+    position: fixed;
+    bottom: 0px;
+    right: 148px;
+    width: 8%;
+    height: 5.9%;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-top-right-radius: 20px;
+    background-color:rgba(255, 255, 255, 0.555);
+    color: black;
+    font-weight: bolder;
+    border: 0px ;
+    cursor: pointer;
+    outline: none;
+    font-family: 'Amatic SC';font-size: 30px;
+
+}
+
+#form2 input[type=submit]
+{
+    position: fixed;
+    bottom: 0px;
+    right: 8px;
+    width: 10%;
+    height: 5.9%;
+    border-bottom-right-radius:20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:20px;
+    border-top-left-radius: 20px;
+    color: black;
+    font-weight: bolder;
+    border: 50px ;
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.555);
+    font-family: 'Amatic SC';font-size: 30px;
+    outline: none;
+
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.527);
+    font-size: 25px;
+  }
+
+#form1 input[type=text]:focus
+{
+    border: 0px;
+}
+
+#admin
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.user-2
+{
+    position: absolute;
+    left: 0px;
+}
+
+
+.user-1
+{
+    position: absolute;
+    left: 5px;
+    margin-bottom: 5px;
+    border: 0px solid black;
+    padding: 3px;
+}
+
+#time
+{
+    font-size: 13px;
+    color: rgb(83, 149, 63);
+    font-weight: bolder;
+}
+
+#time:hover
+{
+    font-size: 30px;
+    cursor: auto;
+}
+
+#main-mess
+{
+    font-size: 27px;
+    border: 0px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:rgba(255, 255, 255, 0.555);
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+a
+{
+    color: white;
+}
+
+.update
+{
+    position: absolute;
+    border-bottom: 1px solid white;
+    height: 0%;
+    width: 0%;
+    top: 0px;
+    left: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+    background-image: url("/img/img1.jpg");
+    color:rgba(5, 66, 5, 0.876); 
+    
+
+}
+
+.User
+{
+    position: fixed;
+    border-bottom: 1px solid black;
+    height: 100%;
+    width: 19.44%;
+    top: 0%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color:rgb(17, 16, 16);
+    padding: 5px;
+    left: 0px;
+    color:rgba(5, 66, 5, 0.876); 
+    font-weight: bolder;
+    transition: 0.7s;
+}
+
+.User li
+{
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.User h1 
+{
+    font-size: 30px;
+    font-family: 'Amatic SC';
+}
+.User h3 
+{
+    text-align: center;
+}
+
+
+#room-title
+{
+    border: 0px solid black;
+    margin-left: 400px ;
+    margin-right: 400px;
+    background-color:rgba(255, 255, 255, 0.555);
+    border-radius: 50px;
+    font-family: 'Amatic SC';
+
+}
+
+#btn-set
+{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 10%;
+    height: 5%;
+    border: 0px;
+    background-color:rgba(3, 97, 3, 0.616);
+    font-family: cursive;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+}
+
+#set-box
+{
+    position: fixed;
+    width: 20%;
+    height: 0%;
+    border: 0px solid white;
+    right: 0px;
+    top: 5%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color:rgb(17, 16, 16);
+    transition: 0.7s;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+#set-box span
+{
+    border: 0px solid white;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 3px;
+    background-color:rgba(3, 97, 3, 0.616);
+
+}
+
+#btn-1
+{
+  position: absolute;
+  width: 40%;
+  height: 25px;
+  top: 22px;
+  left: 120px;
+  border: 1px solid black;
+  background-color: white;
+  font-family: cursive;
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+
+#User-Title
+{
+    text-align: center;
+    color: white;
+    text-decoration:underline;
+    position: fixed;
+    overflow:hidden;
+    border:0px;
+    padding-top:0px;
+    background-color:black;
+    top:-25px;
+    padding-left:70px;
+    padding-right:70px;
+    transition: 0.7s;
+}
+
+#btn-2
+{
+    position: absolute;
+    width: 40%;
+    height: 5%;
+    top: 140px;
+    left: 155px;  
+    border: 1px solid black;
+    background-color: white;
+    font-family: cursive;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#btn-3
+{
+    position: absolute;
+    width: 30%;
+    height: 5%;  
+    border: 1px solid black;
+    background-color: white;
+    font-family: cursive;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+select
+{
+    width: 55%;
+    height: 5%;
+    outline: none;
+}
+
+#img-box
+{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    border: 0.5px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.img-1
+{
+    background-image: url('../img/img1.jpg');
+}
+
+.img-2
+{
+    background-image: url('../img/img2.jpg');
+
+}
+
+.img-3
+{
+    background-image: url('../img/img3.jpg');
+
+}
+
+.img-4
+{
+    background-image: url('../img/img4.jpg');
+
+}
+
+.img-5
+{
+    background-image: url('../img/img.jpg');
+}
+
+.img-6
+{
+    background-image: url('../img/image.jpg');
+}
+
+.img-7
+{
+    background-image: url('../img/img5.jpg');
+}
+
+.img-8
+{
+    background-image: url('../img/img6.jpg');
+    
+}
+
+input[type=color]
+{
+    width: 10%;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+#exit
+{
+    position: fixed;
+    left: 277px;
+    width: 10%;
+    height: 5%;
+    border: 0px;
+    background-color:rgba(3, 97, 3, 0.616);
+    font-family: cursive;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+#exit-link
+{
+    text-decoration: none;
+}
